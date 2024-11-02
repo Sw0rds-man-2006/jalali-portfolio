@@ -9,7 +9,7 @@
         <h2>PERSONAL INFOS</h2>
 
         <img
-          src="../../../public/img/dark - Copy.jpg"
+          src="/public/img/dark - Copy.jpg"
           alt=""
           class="w-230px h-230px mx-auto img-mobile display-none rounded-50% border-b-coolGray"
         />
@@ -54,12 +54,16 @@
             <p><strong>Languages:</strong><br class="break" />English</p>
           </div>
         </div>
-        <button class="button flex h-55px w-230px">
+        <a
+          download
+          href="/public/img/dark.jpg"
+          class="button flex h-55px w-230px"
+        >
           <p class="mt-4 ml-4 text-15px font-bold">DOWNLOAD CV</p>
           <span
             class="fas fa-download w-55px h-55px text-20px pt-3 mt-0px ml-auto bg-amber text-white rounded-full"
           ></span>
-        </button>
+        </a>
       </div>
       <!-- Right Section -->
       <div class="right-section mx-auto">
