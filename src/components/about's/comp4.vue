@@ -6,26 +6,26 @@ const posts = reactive([
     id: 1,
     title: "a simple copy of Quran.com",
     description: "Languages: Html , JS , UnoCss , Vue-router",
-    img: "../../../public/img/quranproject.png",
+    img: "/img/quranproject.png",
   },
   {
     id: 2,
     title: "tv.razavi.ir/first page  ",
     description: "IT's not responsive , just Html & Css, i made it in two days",
-    img: "../../../public/img/tv.razavi.png",
+    img: "/img/tv.razavi.png",
   },
   {
     id: 3,
     title: "a simple responsive page",
     description: "Languages: Html , Css",
-    img: "../../../public/img/responsive.png",
+    img: "/img/responsive.png",
   },
   {
     id: 4,
     title: "Voting application",
     description:
       "It is used for project timing voting. Languages: Html,UnoCss,Vue.js",
-    img: "../../../public/img/estimate.png",
+    img: "/img/estimate.png",
   },
 ]);
 </script>
