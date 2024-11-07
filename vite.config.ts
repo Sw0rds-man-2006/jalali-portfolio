@@ -21,7 +21,7 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
-  base: "/portfolio/",
+  base: "/jalali-portfolio/",
 });
 
 // https://slimhamdi.net/tunis/demos/dark.html
