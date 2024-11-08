@@ -19,7 +19,7 @@ const cards = reactive([
     img: import.meta.env.BASE_URL + "/img/ax-blog-2.jpg",
   },
   {
-    id: 2,
+    id: 3,
     title: "بهترین زبان ها برای شروع برنامه نویسی",
     description: "نکات لازم برای شروع برنامه نویسی و زبان هایی برای شروع",
     img: import.meta.env.BASE_URL + "/img/ax-blog-3.jpg",
