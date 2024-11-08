@@ -68,7 +68,7 @@ const togglecheck = () => {
   </div>
 
   <!-- صفحه سیاه -->
-  <div :class="{ 'black-screen': true, active: navActive }">
+  <div :class="{ 'black-screen': true, active: navActive }" class="black-s">
     <div>
       <RouterLink
         class="decoration-none text-white"
@@ -179,6 +179,11 @@ h1 {
 
 .nav2-title {
   height: 8vh !important ;
+}
+
+.black-s {
+  background-color: rgba(40, 40, 40, 0.6) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 .continer {

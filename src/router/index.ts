@@ -3,6 +3,8 @@ import about from "../views/about.vue";
 import home from "../views/home.vue";
 import blog from "../views/blog.vue";
 import contact from "../views/contact.vue";
+import blogcontent from "@/views/blogcontent.vue";
+import Pagenotfound from "@/views/Pagenotfound.vue";
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -26,6 +28,22 @@ const router = createRouter({
       path: "/contact",
       name: "contact",
       component: contact,
+    },
+    {
+      path: "/blog/:id",
+      beforeEnter(to, from, next) {
+        if (+to.params.id > 3) {
+          next("/error");
+        } else {
+          next();
+        }
+      },
+      component: blogcontent,
+    },
+    {
+      path: "/:catchall(.*)*",
+      name: "PageNotFound",
+      component: Pagenotfound,
     },
   ],
 });

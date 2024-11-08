@@ -1,25 +1,28 @@
 <script setup lang="ts">
 import { ref, reactive } from "vue";
+import { useRoute } from "vue-router";
 import { id } from "vuetify/locale";
 
+const route = useRoute();
+const router = useRoute();
 const cards = reactive([
   {
     id: 1,
     title: "نکات امنیتی در سوشال مدیا ",
     description: "نکات امنیتی که باید در مورد فضای مجازی بدانید",
-    img: "/img/ax-blog-1.jpg",
+    img: import.meta.env.BASE_URL + "/img/ax-blog-1.jpg",
   },
   {
     id: 2,
     title: "بهترین زبان ها برای شروع برنامه نویسی",
     description: "نکات لازم برای شروع برنامه نویسی و زبان هایی برای شروع",
-    img: "/img/ax-blog-2.jpg",
+    img: import.meta.env.BASE_URL + "/img/ax-blog-2.jpg",
   },
   {
     id: 2,
     title: "بهترین زبان ها برای شروع برنامه نویسی",
     description: "نکات لازم برای شروع برنامه نویسی و زبان هایی برای شروع",
-    img: "/img/ax-blog-3.jpg",
+    img: import.meta.env.BASE_URL + "/img/ax-blog-3.jpg",
   },
 ]);
 </script>
@@ -29,17 +32,32 @@ const cards = reactive([
 
   <!-- بخش کارت‌ها -->
   <div class="container">
-    <div class="card" v-for="card in cards" :key="card.id">
+    <RouterLink
+      :to="'/blog/' + card.id"
+      class="card decoration-none"
+      v-for="card in cards"
+      :key="card.id"
+    >
       <img class="image-placeholder" :src="card.img" />
       <div class="card-content">
         <h3>{{ card.title }}</h3>
         <p>{{ card.description }}</p>
       </div>
-    </div>
+    </RouterLink>
   </div>
 </template>
 <style scoped>
 /* تنظیمات عمومی */
+* {
+  font-family: yekan;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: yekan;
+  src: url(/public/Yekan.ttf);
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
