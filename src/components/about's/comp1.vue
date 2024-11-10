@@ -9,9 +9,9 @@
         <h2>PERSONAL INFOS</h2>
 
         <img
-          src="/img/dark - Copy.jpg"
+          src="/img/Untitled-1.jpg"
           alt=""
-          class="w-230px h-230px mx-auto img-mobile display-none rounded-50% border-b-coolGray"
+          class="w-230px h-230px mx-auto img-mobile hidden rounded-50% border-b-coolGray"
         />
 
         <div class="personal-info">

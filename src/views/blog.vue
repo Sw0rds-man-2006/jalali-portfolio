@@ -20,8 +20,8 @@ const cards = reactive([
   },
   {
     id: 3,
-    title: "بهترین زبان ها برای شروع برنامه نویسی",
-    description: "نکات لازم برای شروع برنامه نویسی و زبان هایی برای شروع",
+    title: "معرفی شغل صداسازی بازی",
+    description: "نکات لازم برای شروع صدا سازی بازی و آشنایی با آن",
     img: import.meta.env.BASE_URL + "/img/ax-blog-3.jpg",
   },
 ]);

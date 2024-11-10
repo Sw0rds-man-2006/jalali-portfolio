@@ -15,7 +15,7 @@
         class="back-div bg-amber rotate--20 z-1 absolute w-500px h-150vh left--170px top--80px"
       ></div>
       <img
-        src="/img/dark.jpg"
+        src="/img/Untitled-1.jpg"
         alt="Profile Image"
         class="object-cover w-60vh h-90vh rounded-20px absolute z-2 top-10px left-15px shadow-2xl"
       />
