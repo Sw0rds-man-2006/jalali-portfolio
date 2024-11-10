@@ -181,7 +181,7 @@ const blog = ref(blogs[routeid - 1]);
       alt=""
       class="min-w-300px w-70vw max-w-600px mx-auto block"
     />
-    <p class="m-5">{{ blog.contnt }}</p>
+    <pre class="m-5">{{ blog.contnt }}</pre>
   </div>
 </template>
 
