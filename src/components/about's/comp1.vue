@@ -9,7 +9,7 @@
         <h2>PERSONAL INFOS</h2>
 
         <img
-          src="/img/Untitled-1.jpg"
+          src="/img/Background copy.jpg"
           alt=""
           class="w-230px h-230px mx-auto img-mobile hidden rounded-50% border-b-coolGray"
         />
