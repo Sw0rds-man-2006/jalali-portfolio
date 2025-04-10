@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-let cv_url = "/jalali-portfolio/public/Jalali_frontend_resume.pdf";
+let cv_url = import.meta.env.BASE_URL + "/Jalali_frontend_resume.pdf";
 </script>
 
 <template>
