@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from "vue";
+
+let cv_url = "/jalali-portfolio/public/Jalali_frontend_resume.pdf";
+</script>
 
 <template>
   <div class="main-container mx-auto">
@@ -54,12 +58,14 @@
             <p><strong>Languages:</strong><br class="break" />English</p>
           </div>
         </div>
-        <!-- <button class="button flex h-55px w-230px">
+        <a :href="cv_url" download class="button flex h-55px w-230px">
           <p class="mt-4 ml-4 text-15px font-bold">DOWNLOAD CV</p>
           <span
-            class="fas fa-download w-55px h-55px text-20px pt-3 mt-0px ml-auto bg-amber text-white rounded-full"
+            class="ml-auto w-55px text-20px bg-amber text-white rounded-full relative"
+          >
+            <span class="fas fa-download mt-3 ml-4"></span
           ></span>
-        </button> -->
+        </a>
       </div>
       <!-- Right Section -->
       <div class="right-section mx-auto">

@@ -31,6 +31,14 @@ const posts = reactive([
     img: import.meta.env.BASE_URL + "img/estimate.png",
     link: "https://github.com/Sw0rds-man-2006/takhmin.git",
   },
+  {
+    id: 5,
+    title: "login and signup",
+    description:
+      "It was named book school at first but it's all what's left of it",
+    img: import.meta.env.BASE_URL + "img/login.png",
+    link: "https://github.com/Sw0rds-man-2006/MadreseKeteb.git",
+  }
 ]);
 </script>
 

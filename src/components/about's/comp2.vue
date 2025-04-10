@@ -16,21 +16,9 @@
       </div>
       <div class="skill" style="--percentage: 70">
         <div class="circle">
-          <div class="percentage">70%</div>
+          <div class="percentage">85%</div>
         </div>
         <div class="label">CSS</div>
-      </div>
-      <div class="skill" style="--percentage: 55">
-        <div class="circle">
-          <div class="percentage">55%</div>
-        </div>
-        <div class="label">PHP & LARAVEL</div>
-      </div>
-      <div class="skill" style="--percentage: 50">
-        <div class="circle">
-          <div class="percentage">50%</div>
-        </div>
-        <div class="label">WORDPRESS</div>
       </div>
       <div class="skill" style="--percentage: 85">
         <div class="circle">
@@ -46,7 +34,7 @@
       </div>
       <div class="skill" style="--percentage: 40">
         <div class="circle">
-          <div class="percentage">40%</div>
+          <div class="percentage">60%</div>
         </div>
         <div class="label">REACT</div>
       </div>

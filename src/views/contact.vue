@@ -33,8 +33,8 @@ const error = ref(false);
       ></span>
     </button>
     <div class="social-icons"></div>
-    <div class="w-200px rounded-4 bg-rose h-50px m-3 p-3" v-if="error">
-      somthing went wrong
+    <div class="w-200px rounded-4 bg-red m-3 p-3" v-if="error">
+      this page is just for test, so it cant send a message. sorry :)
     </div>
   </div>
 </template>

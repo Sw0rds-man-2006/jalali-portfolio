@@ -9,8 +9,6 @@ const router = useRoute();
 const navActive = ref(false);
 const check = ref(false);
 
-let par = ref(router.path);
-
 // تابع تغییر وضعیت صفحه سیاه
 function toggleBlackScreen() {
   navActive.value = !navActive.value;
