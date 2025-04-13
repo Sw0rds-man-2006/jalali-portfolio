@@ -56,7 +56,7 @@ const posts = reactive([
   <!-- بخش کارتها -->
   <div class="container">
     <a
-      class="card cursor-pointer decoration-none"
+      class="card cursor-pointer decoration-none transition-transform duration-300 hover:scale-110"
       :href="post.link"
       v-for="post in posts"
       :key="post.id"
