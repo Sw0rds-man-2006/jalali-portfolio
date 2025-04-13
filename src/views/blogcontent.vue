@@ -206,15 +206,15 @@ const blog = ref(blogs[routeid - 1]);
   direction: rtl;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 15px; /* فاصله از لبه‌های صفحه */
+  padding: 0 15px;
   box-sizing: border-box;
 }
 
 pre {
-  white-space: pre-wrap; /* جلوگیری از خروج متن‌های طولانی */
-  word-wrap: break-word; /* شکستن کلمات طولانی */
-  word-break: break-word; /* شکستن کلمات در صورت نیاز */
-  overflow-wrap: break-word; /* پشتیبانی از مرورگرهای قدیمی‌تر */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
   line-height: 1.8;
 }
 </style>
