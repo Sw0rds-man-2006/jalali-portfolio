@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-let cv_url = import.meta.env.BASE_URL + "/Jalali_frontend_resume.pdf";
+let cv_url = import.meta.env.BASE_URL + "/jalal-frontend-developer-resume.pdf";
 </script>
 
 <template>
@@ -74,7 +74,7 @@ let cv_url = import.meta.env.BASE_URL + "/Jalali_frontend_resume.pdf";
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <div class="stat-box">
-          <h3>4<span>+</span></h3>
+          <h3>6<span>+</span></h3>
           <p>COMPLETED PROJECTS</p>
         </div>
         <div class="stat-box">

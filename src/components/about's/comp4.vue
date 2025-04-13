@@ -35,10 +35,18 @@ const posts = reactive([
     id: 5,
     title: "login and signup",
     description:
-      "It was named book school at first but it's all what's left of it",
+      "It was supposed to be a school project named 'Book School', but it only progressed to the login and signup section, and that's all that's left of it.",
     img: import.meta.env.BASE_URL + "img/login.png",
     link: "https://github.com/Sw0rds-man-2006/MadreseKeteb.git",
-  }
+  },
+  {
+    id: 6,
+    title: "sadra-portfolio",
+    description:
+      "This is a simple yet attractive portfolio page that I implemented using React for my friend.",
+    img: import.meta.env.BASE_URL + "img/sadra-portfolio.png",
+    link: "https://sw0rds-man-2006.github.io/sadra-portfolio/",
+  },
 ]);
 </script>
 
