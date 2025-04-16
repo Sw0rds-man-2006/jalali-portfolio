@@ -4,7 +4,7 @@ import { ref, reactive } from "vue";
 const posts = reactive([
   {
     id: 1,
-    title: "a simple copy of Quran.com",
+    title: "Quran",
     description: "Languages: Html , JS , UnoCss , Vue-router",
     img: import.meta.env.BASE_URL + "img/quranproject.png",
     link: "https://github.com/Sw0rds-man-2006/quran-project.git",
@@ -33,7 +33,7 @@ const posts = reactive([
   },
   {
     id: 5,
-    title: "login and signup",
+    title: "Login and signup",
     description:
       "It was supposed to be a school project named 'Book School', but it only progressed to the login and signup section, and that's all that's left of it.",
     img: import.meta.env.BASE_URL + "img/login.png",
@@ -41,11 +41,19 @@ const posts = reactive([
   },
   {
     id: 6,
-    title: "sadra-portfolio",
+    title: "Sadra portfolio",
     description:
       "This is a simple yet attractive portfolio page that I implemented using React for my friend.",
     img: import.meta.env.BASE_URL + "img/sadra-portfolio.png",
     link: "https://sw0rds-man-2006.github.io/sadra-portfolio/",
+  },
+  {
+    id: 7,
+    title: "Task manager",
+    description:
+      "an aplication that helps you manage your tasks and to-do lists. and it has a login/signup system. 'i did it with my friend Err0rGuy'",
+    img: import.meta.env.BASE_URL + "img/task-manager.png",
+    link: "https://github.com/Err0rGuy/TaskManager.git",
   },
 ]);
 </script>
