@@ -14,7 +14,7 @@
         </div>
         <div class="label">JAVASCRIPT</div>
       </div>
-      <div class="skill" style="--percentage: 70">
+      <div class="skill" style="--percentage: 85">
         <div class="circle">
           <div class="percentage">85%</div>
         </div>
@@ -32,9 +32,9 @@
         </div>
         <div class="label">VUE.JS</div>
       </div>
-      <div class="skill" style="--percentage: 40">
+      <div class="skill" style="--percentage: 65">
         <div class="circle">
-          <div class="percentage">60%</div>
+          <div class="percentage">65%</div>
         </div>
         <div class="label">REACT</div>
       </div>
